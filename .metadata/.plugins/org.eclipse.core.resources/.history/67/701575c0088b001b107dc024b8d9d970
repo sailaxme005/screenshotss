@@ -1,0 +1,7 @@
+package com.webOrders.resources;
+
+import org.testng.annotations.Test;
+
+public class CustomTestNGReporter {
+  
+}

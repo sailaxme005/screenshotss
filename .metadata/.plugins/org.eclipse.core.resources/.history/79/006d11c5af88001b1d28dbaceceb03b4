@@ -1,0 +1,14 @@
+package com.webOrder.pages;
+
+import java.io.IOException;
+
+import com.webOrders.base.BaseClass;
+
+public class CheckOutPage_payment extends BaseClass {
+
+	public CheckOutPage_payment() throws IOException {
+		super();
+		
+	}
+
+}

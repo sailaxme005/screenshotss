@@ -1,0 +1,16 @@
+package com.webOrder.pages;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+
+import com.webOrders.base.BaseClass;
+
+public class CheckOutPage extends BaseClass {
+ By ContinueAsGuest = By.id("guest_tabb");
+	public CheckOutPage() throws IOException {
+		super();
+		
+	}
+
+}

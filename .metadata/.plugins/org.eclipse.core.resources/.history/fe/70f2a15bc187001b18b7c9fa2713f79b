@@ -1,0 +1,5 @@
+package com.webOrders.base;
+
+public class BaseClass {
+
+}

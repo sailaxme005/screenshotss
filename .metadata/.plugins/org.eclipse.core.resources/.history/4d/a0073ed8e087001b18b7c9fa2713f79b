@@ -1,0 +1,26 @@
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OrderType {
+	WebDriver driver;
+	public void initilization() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Bala koti\\eclipse\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
+		System.out.println("Chrome Opend...");
+		driver.get("https://www.food-order.net/index.php/web_orders/home/SFpGQVlX?uid=60530aa47d668");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.findElement(By.xpath("//*[@id=\"order_type_display\"]/div[2]/div[4]/div/div/button[2]")).click();
+		System.out.println("proceed clicked..");
+	}
+	
+
+	public static void main(String[] args) {
+		OrderType ot = new OrderType();
+		ot.initilization();
+
+	}
+
+}

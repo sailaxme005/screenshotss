@@ -1,0 +1,32 @@
+package com.webOrder.pages;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.PageFactory;
+
+import com.webOrders.base.BaseClass;
+
+public class MenuWeb extends BaseClass {
+	By Food_Menu = By.linkText("Food Menu");
+	By item_Mod = By.linkText("Item Mod");
+	By IDM1_Choose = By.xpath("//*[@id=\"items\"]/div/div[2]/div/div/div[1]/div[2]/div/div[2]/div/button");
+	By Add_Cart_IDM1 = By.linkText("Add To Cart");
+	By IDM2_Choose = By.xpath("//*[@id=\"items\"]/div/div[2]/div/div/div[3]/div[2]/div/div[2]/div/button");
+	By Add_Cart_IDM2 = By.linkText("Add To Cart");
+
+	public MenuWeb() throws IOException {
+		super();
+		PageFactory.initElements(driver, this);
+		
+	}
+	public void clickOnFoodMenu() {
+		driver.findElement(Food_Menu).click();
+		System.out.println("Food Menu clicked..");
+	}
+	public void clickOnItemMod() {
+		driver.findElement(item_Mod).click();
+		System.out.println("item Mod clicked...");
+	}
+
+}

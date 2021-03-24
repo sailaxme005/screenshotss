@@ -1,0 +1,33 @@
+package com.webOrder.testPages;
+
+import java.io.IOException;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import com.webOrder.pages.CheckOutPage;
+import com.webOrder.pages.MenuWeb;
+import com.webOrder.pages.OrderTypePage;
+import com.webOrders.base.BaseClass;
+import com.webOrders.resources.ScreenShots;
+
+public class CheckOutPageTest extends BaseClass {
+	OrderTypePage ordertype;
+	ScreenShots scr;
+	MenuWeb menuweb;
+	OrderTypePageTest ordertypetest;
+	CheckOutPage checkoutpage;
+  public CheckOutPageTest() throws IOException {
+		super();
+		
+	}
+  @BeforeClass
+  public void initilizeBrowser1() {
+	 
+		
+  }
+
+@Test
+  public void f() {
+  }
+}

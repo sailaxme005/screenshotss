@@ -1,0 +1,19 @@
+package com.webOrder.pages;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+
+import com.webOrders.base.BaseClass;
+
+public class MenuWeb extends BaseClass {
+	By Food_Menu = By.linkText("Food Menu");
+	By item_Mod = By.linkText("Item Mod");
+	By IDM1_Choose = By.xpath("//*[@id=\"items\"]/div/div[2]/div/div/div[1]/div[2]/div/div[2]/div/button");
+
+	public MenuWeb() throws IOException {
+		super();
+		
+	}
+
+}

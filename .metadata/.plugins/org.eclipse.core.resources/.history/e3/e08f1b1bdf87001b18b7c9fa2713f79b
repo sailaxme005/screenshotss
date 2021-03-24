@@ -1,0 +1,9 @@
+
+public class OrderType {
+
+	public static void main(String[] args) {
+		OrderType ot = new OrderType();
+
+	}
+
+}

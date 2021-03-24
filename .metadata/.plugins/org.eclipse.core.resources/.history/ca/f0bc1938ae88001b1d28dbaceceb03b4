@@ -1,0 +1,19 @@
+package com.webOrder.testPages;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+
+public class CheckOutPageTest_payment {
+  @Test
+  public void f() {
+  }
+  @AfterMethod
+  public void afterMethod() {
+  }
+
+  @BeforeClass
+  public void beforeClass() {
+  }
+
+}

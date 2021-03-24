@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-18T13:27:19 IST" name="eposWebOrders" finished-at="2021-03-18T13:31:20 IST" duration-ms="241369">
+    <groups>
+    </groups>
+    <test started-at="2021-03-18T13:27:19 IST" name="LoginPageTest" finished-at="2021-03-18T13:31:20 IST" duration-ms="241369">
+      <class name="com.epos.TestPages.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.epos.TestPages.LoginPageTest@1f0f1111]" started-at="2021-03-18T13:27:04 IST" name="setup" finished-at="2021-03-18T13:27:19 IST" duration-ms="14303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginpageTitleTest()[pri:1, instance:com.epos.TestPages.LoginPageTest@1f0f1111]" started-at="2021-03-18T13:27:19 IST" name="LoginpageTitleTest" finished-at="2021-03-18T13:27:19 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginpageTitleTest -->
+        <test-method is-config="true" signature="screenshots_failedtcs(org.testng.ITestResult)[pri:0, instance:com.epos.TestPages.LoginPageTest@1f0f1111]" started-at="2021-03-18T13:27:19 IST" name="screenshots_failedtcs" finished-at="2021-03-18T13:27:19 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginpageTitleTest status=SUCCESS method=LoginPageTest.LoginpageTitleTest()[pri:1, instance:com.epos.TestPages.LoginPageTest@1f0f1111] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots_failedtcs -->
+        <test-method signature="validateimageTest()[pri:2, instance:com.epos.TestPages.LoginPageTest@1f0f1111]" started-at="2021-03-18T13:27:19 IST" name="validateimageTest" finished-at="2021-03-18T13:27:19 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateimageTest -->
+        <test-method is-config="true" signature="screenshots_failedtcs(org.testng.ITestResult)[pri:0, instance:com.epos.TestPages.LoginPageTest@1f0f1111]" started-at="2021-03-18T13:27:19 IST" name="screenshots_failedtcs" finished-at="2021-03-18T13:27:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateimageTest status=SUCCESS method=LoginPageTest.validateimageTest()[pri:2, instance:com.epos.TestPages.LoginPageTest@1f0f1111] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots_failedtcs -->
+        <test-method signature="LoginTest()[pri:3, instance:com.epos.TestPages.LoginPageTest@1f0f1111]" started-at="2021-03-18T13:27:19 IST" name="LoginTest" finished-at="2021-03-18T13:27:20 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="screenshots_failedtcs(org.testng.ITestResult)[pri:0, instance:com.epos.TestPages.LoginPageTest@1f0f1111]" started-at="2021-03-18T13:27:20 IST" name="screenshots_failedtcs" finished-at="2021-03-18T13:27:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=LoginPageTest.LoginTest()[pri:3, instance:com.epos.TestPages.LoginPageTest@1f0f1111] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots_failedtcs -->
+        <test-method signature="dpResturantNameTest()[pri:4, instance:com.epos.TestPages.LoginPageTest@1f0f1111]" started-at="2021-03-18T13:27:20 IST" name="dpResturantNameTest" finished-at="2021-03-18T13:27:20 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dpResturantNameTest -->
+        <test-method is-config="true" signature="screenshots_failedtcs(org.testng.ITestResult)[pri:0, instance:com.epos.TestPages.LoginPageTest@1f0f1111]" started-at="2021-03-18T13:27:20 IST" name="screenshots_failedtcs" finished-at="2021-03-18T13:27:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dpResturantNameTest status=SUCCESS method=LoginPageTest.dpResturantNameTest()[pri:4, instance:com.epos.TestPages.LoginPageTest@1f0f1111] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots_failedtcs -->
+        <test-method signature="booleanCaptchatTest()[pri:5, instance:com.epos.TestPages.LoginPageTest@1f0f1111]" started-at="2021-03-18T13:27:20 IST" name="booleanCaptchatTest" finished-at="2021-03-18T13:31:20 IST" duration-ms="240088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booleanCaptchatTest -->
+        <test-method is-config="true" signature="screenshots_failedtcs(org.testng.ITestResult)[pri:0, instance:com.epos.TestPages.LoginPageTest@1f0f1111]" started-at="2021-03-18T13:31:20 IST" name="screenshots_failedtcs" finished-at="2021-03-18T13:31:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=booleanCaptchatTest status=SUCCESS method=LoginPageTest.booleanCaptchatTest()[pri:5, instance:com.epos.TestPages.LoginPageTest@1f0f1111] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots_failedtcs -->
+        <test-method signature="LoginButtonTest()[pri:6, instance:com.epos.TestPages.LoginPageTest@1f0f1111]" started-at="2021-03-18T13:31:20 IST" name="LoginButtonTest" finished-at="2021-03-18T13:31:20 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginButtonTest -->
+        <test-method is-config="true" signature="screenshots_failedtcs(org.testng.ITestResult)[pri:0, instance:com.epos.TestPages.LoginPageTest@1f0f1111]" started-at="2021-03-18T13:31:20 IST" name="screenshots_failedtcs" finished-at="2021-03-18T13:31:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginButtonTest status=SUCCESS method=LoginPageTest.LoginButtonTest()[pri:6, instance:com.epos.TestPages.LoginPageTest@1f0f1111] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots_failedtcs -->
+      </class> <!-- com.epos.TestPages.LoginPageTest -->
+    </test> <!-- LoginPageTest -->
+  </suite> <!-- eposWebOrders -->
+</testng-results>

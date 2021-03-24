@@ -1,0 +1,57 @@
+package com.webOrder.testPages;
+
+import org.testng.annotations.Test;
+
+import com.webOrder.pages.OrderTypePage;
+import com.webOrders.base.BaseClass;
+import com.webOrders.resources.ScreenShots;
+
+import org.testng.annotations.BeforeClass;
+
+import java.io.IOException;
+
+import org.testng.ITestResult;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+
+public class OrderTypePageTest extends BaseClass  {
+	OrderTypePage ordertype;
+	ScreenShots scr;
+  public OrderTypePageTest() throws IOException {
+		super();
+		ordertype = new OrderTypePage();
+		scr = new ScreenShots();
+		
+	}
+@Test(priority = 1)
+  public void Verify_clickOnCollections() {
+	ordertype.clickOnCollections();
+	System.out.println("Verify_clickOnCollection executed..");
+	
+  }
+
+
+@Test(priority = 2)
+public boolean radioButton_selectNo() {
+	return ordertype.selectNo();
+}
+
+@Test(priority = 3 )
+public void verify_Proceed() {
+	ordertype.clickOnProceed();
+}
+  @BeforeClass
+  public void beforeClass() {
+	  initlization();
+	  System.out.println("Browser Opened..");
+  }
+  @AfterMethod
+	public void screenshots_failedtcs(ITestResult result) {
+		scr.screenshots_failedtcs(result);
+	
+	}
+//  @AfterClass
+//  public void afterClass() {
+//  }
+
+}

@@ -1,0 +1,9 @@
+package com.epos.resources;
+
+import org.testng.annotations.Test;
+
+public class Listeners {
+  @Test
+  public void f() {
+  }
+}
