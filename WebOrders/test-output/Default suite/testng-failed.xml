@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.webOrder.testPages.OrderTypePageTest">
+      <class name="com.webOrder.testPages.DeliveryAddressPageTest">
         <methods>
-          <include name="beforeClass"/>
-          <include name="Verify_Browse"/>
           <include name="screenshots_failedtcs"/>
+          <include name="Browser_initilization"/>
+          <include name="verify_clickOnCustomAddress"/>
         </methods>
-      </class> <!-- com.webOrder.testPages.OrderTypePageTest -->
+      </class> <!-- com.webOrder.testPages.DeliveryAddressPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

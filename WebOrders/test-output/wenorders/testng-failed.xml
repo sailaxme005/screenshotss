@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [wenorders]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginPage(failed)">
+    <classes>
+      <class name="com.webOrder.testPages.SignUpPageTest">
+        <methods>
+          <include name="Browser_init"/>
+          <include name="screenshots_failedtcs"/>
+          <include name="verify_fillUpSignup"/>
+        </methods>
+      </class> <!-- com.webOrder.testPages.SignUpPageTest -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+</suite> <!-- Failed suite [wenorders] -->

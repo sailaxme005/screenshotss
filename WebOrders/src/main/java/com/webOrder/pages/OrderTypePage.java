@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -36,8 +37,9 @@ public void clickOnCollections() {
 	 driver.findElement(collection).click();
 }
 public void clickOnDelivery() {
-	driver.findElement(Delivery).click();
-	
+	WebElement delivery =  driver.findElement(Delivery);
+	JavascriptExecutor jse = (JavascriptExecutor)driver;
+	jse.executeScript("arguments[0].click()", delivery);
 	
 }
 public void enterPostCode(String Ps) {
@@ -52,9 +54,10 @@ public boolean selectNo() {
 public void clickOnBrowse() {
 	driver.findElement(Browse_Menu).click();
 }
-public MenuWeb clickOnProceed() throws IOException {
+public MenuWeb clickOnProceed() throws IOException, InterruptedException {
 	
 	driver.findElement(Proceed).click();
+	Thread.sleep(10000);
 	
 	driver.manage().timeouts().pageLoadTimeout(TestUtils.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 	return new MenuWeb();

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="wenorders">
+<listeners>
+		<listener
+			class-name="com.webOrders.resources.ExtentReportListeners" />
+	</listeners>
+	<test name="LoginPage">
+		<classes>
+
+			<class name="com.webOrder.testPages.LoginPageTest" />
+			<class name="com.webOrder.testPages.ForgotPassword" />
+			<class name="com.webOrder.testPages.SignUpPageTest" />
+			<class name="com.webOrder.testPages.ContinuAsGuestPageTest" />
+			
+		</classes>
+	</test> <!-- LoginPage -->
+</suite> <!-- wenorders -->

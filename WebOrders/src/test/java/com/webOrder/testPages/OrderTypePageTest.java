@@ -48,7 +48,7 @@ public boolean radioButton_selectYes() {
 }
 
 @Test(priority = 3, groups = {"colNoPro","delNoPro"})
-public void verify_Proceed() throws IOException{ 
+public void verify_Proceed() throws IOException, InterruptedException{ 
 	
 		menuweb = ordertype.clickOnProceed();
 		 System.out.println("verify_Proceed executed..");

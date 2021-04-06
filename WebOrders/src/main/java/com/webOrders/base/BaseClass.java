@@ -26,6 +26,7 @@ public class BaseClass{
 			e.printStackTrace();
 		}
 		
+		
 	}
 	public void initlization()  {
 		String BrowserName = prop.getProperty("Browser");
@@ -43,6 +44,7 @@ public class BaseClass{
 	    driver.get(prop.getProperty("URL"));
 		
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(TestUtils.IMPLICITY_WAIT, TimeUnit.SECONDS);
 		
 		
 	}

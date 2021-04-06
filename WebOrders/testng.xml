@@ -4,6 +4,8 @@
 	<listeners>
 		<listener
 			class-name="com.webOrders.resources.ExtentReportListeners" />
+			<listener
+			class-name="com.webOrders.resources.TestLinkIntegration" />
 	</listeners>
 	<test name="WebOrders">
 		<groups>
