@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-01T12:28:31 IST" name="Default suite" finished-at="2021-04-01T12:29:00 IST" duration-ms="29951">
+    <groups>
+    </groups>
+    <test started-at="2021-04-01T12:28:31 IST" name="Default test" finished-at="2021-04-01T12:29:00 IST" duration-ms="29951">
+      <class name="com.webOrder.testPages.DemoTc">
+        <test-method is-config="true" signature="Browser_initilization()[pri:0, instance:com.webOrder.testPages.DemoTc@69b2283a]" started-at="2021-04-01T12:28:31 IST" name="Browser_initilization" finished-at="2021-04-01T12:28:44 IST" duration-ms="13504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_initilization -->
+        <test-method signature="DemoMethod()[pri:0, instance:com.webOrder.testPages.DemoTc@69b2283a]" started-at="2021-04-01T12:28:44 IST" name="DemoMethod" finished-at="2021-04-01T12:29:00 IST" duration-ms="16410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoMethod -->
+      </class> <!-- com.webOrder.testPages.DemoTc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

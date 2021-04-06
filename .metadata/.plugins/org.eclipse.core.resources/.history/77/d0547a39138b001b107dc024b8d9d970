@@ -1,9 +1,0 @@
-package com.webOrder.testNGreports;
-
-import org.testng.annotations.Test;
-
-public class CustomTestNgReports {
-  @Test
-  public void f() {
-  }
-}

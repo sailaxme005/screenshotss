@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Bala koti\eclipse-workspace\WebOrders"/>
+			<item value="C:\Users\Bala koti\eclipse-workspace\eposWebOrders"/>
 			<item value="C:\Users\Bala koti\eclipse-workspace\JkmlResto"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -44,18 +46,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="Weborders"/>
-			<item value="eposWebOrders"/>
-			<item value="BaseClass"/>
-			<item value="JkmlResto"/>
+			<item value="weborders"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="WebOrders"/>
-			<item value="eposWebOrders"/>
-			<item value="BaseClass"/>
-			<item value="JkmlResto"/>
+			<item value="webordertest"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

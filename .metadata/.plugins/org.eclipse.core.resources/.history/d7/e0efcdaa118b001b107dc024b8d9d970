@@ -1,5 +1,0 @@
-package com.webOrder.testNGreports;
-
-public class CustomTestNGReporter {
-
-}

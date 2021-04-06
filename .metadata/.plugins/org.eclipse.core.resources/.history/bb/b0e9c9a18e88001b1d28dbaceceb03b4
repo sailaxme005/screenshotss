@@ -1,9 +1,0 @@
-package com.webOrder.testPages;
-
-import org.testng.annotations.Test;
-
-public class MenuWebPageTest {
-  @Test
-  public void f() {
-  }
-}

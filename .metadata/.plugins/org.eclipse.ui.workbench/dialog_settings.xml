@@ -4,6 +4,9 @@
 		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.m2e"/>
+			<item value="org.eclipse.wst.XMLCategory"/>
 		</list>
+	</section>
+	<section name="ImportExportAction">
 	</section>
 </section>
