@@ -576,3 +576,113 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.core 4 0 2021-04-06 12:07:54.721
+!MESSAGE An exception occurred during push on URI https://github.com/sailaxme005/screenshotss: https://github.com/sailaxme005/screenshotss: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/sailaxme005/screenshotss: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:437)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1335)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2021-04-06 12:07:54.723
+!MESSAGE Can't connect to any repository: https://github.com/sailaxme005/screenshotss (https://github.com/sailaxme005/screenshotss: not authorized)
+
+!ENTRY org.eclipse.egit.ui 4 0 2021-04-06 12:08:04.751
+!MESSAGE https://github.com/: https://github.com/info/refs?service=git-upload-pack not found: Not Found
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/: https://github.com/info/refs?service=git-upload-pack not found: Not Found
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:189)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:128)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:116)
+	at org.eclipse.egit.ui.internal.components.AsynchronousListOperation.run(AsynchronousListOperation.java:76)
+	at org.eclipse.egit.ui.internal.dialogs.CancelableFuture$1.run(CancelableFuture.java:280)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: https://github.com/: https://github.com/info/refs?service=git-upload-pack not found: Not Found
+	at org.eclipse.jgit.transport.TransportHttp.createNotFoundException(TransportHttp.java:492)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:524)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:362)
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:167)
+	... 5 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2021-04-06 12:08:09.515
+!MESSAGE https://github.com/sailaxme005/screenshots/projects/1: https://github.com/sailaxme005/screenshots/projects/1/info/refs?service=git-upload-pack not found: Not Found
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/sailaxme005/screenshots/projects/1: https://github.com/sailaxme005/screenshots/projects/1/info/refs?service=git-upload-pack not found: Not Found
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:189)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:128)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:116)
+	at org.eclipse.egit.ui.internal.components.AsynchronousListOperation.run(AsynchronousListOperation.java:76)
+	at org.eclipse.egit.ui.internal.dialogs.CancelableFuture$1.run(CancelableFuture.java:280)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: https://github.com/sailaxme005/screenshots/projects/1: https://github.com/sailaxme005/screenshots/projects/1/info/refs?service=git-upload-pack not found: Not Found
+	at org.eclipse.jgit.transport.TransportHttp.createNotFoundException(TransportHttp.java:492)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:524)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:362)
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:167)
+	... 5 more
+
+!ENTRY org.eclipse.egit.core 4 0 2021-04-06 12:08:13.687
+!MESSAGE An exception occurred during push on URI https://github.com/sailaxme005/screenshots/projects/1: https://github.com/sailaxme005/screenshots/projects/1: https://github.com/sailaxme005/screenshots/projects/1/info/refs?service=git-receive-pack not found: Not Found
+!STACK 0
+org.eclipse.jgit.errors.NoRemoteRepositoryException: https://github.com/sailaxme005/screenshots/projects/1: https://github.com/sailaxme005/screenshots/projects/1/info/refs?service=git-receive-pack not found: Not Found
+	at org.eclipse.jgit.transport.TransportHttp.createNotFoundException(TransportHttp.java:492)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:524)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:437)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1335)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:210)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.egit.ui 4 0 2021-04-06 12:08:30.259
+!MESSAGE https://github.com/sailaxme005/screenshots/projects/1: https://github.com/sailaxme005/screenshots/projects/1/info/refs?service=git-upload-pack not found: Not Found
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/sailaxme005/screenshots/projects/1: https://github.com/sailaxme005/screenshots/projects/1/info/refs?service=git-upload-pack not found: Not Found
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:189)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:128)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:116)
+	at org.eclipse.egit.ui.internal.components.AsynchronousListOperation.run(AsynchronousListOperation.java:76)
+	at org.eclipse.egit.ui.internal.dialogs.CancelableFuture$1.run(CancelableFuture.java:280)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: https://github.com/sailaxme005/screenshots/projects/1: https://github.com/sailaxme005/screenshots/projects/1/info/refs?service=git-upload-pack not found: Not Found
+	at org.eclipse.jgit.transport.TransportHttp.createNotFoundException(TransportHttp.java:492)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:524)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:362)
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:167)
+	... 5 more
+
+!ENTRY org.eclipse.egit.core 4 0 2021-04-06 12:08:42.504
+!MESSAGE An exception occurred during push on URI https://github.com/sailaxme005/screenshots/projects/1: https://github.com/sailaxme005/screenshots/projects/1: https://github.com/sailaxme005/screenshots/projects/1/info/refs?service=git-receive-pack not found: Not Found
+!STACK 0
+org.eclipse.jgit.errors.NoRemoteRepositoryException: https://github.com/sailaxme005/screenshots/projects/1: https://github.com/sailaxme005/screenshots/projects/1/info/refs?service=git-receive-pack not found: Not Found
+	at org.eclipse.jgit.transport.TransportHttp.createNotFoundException(TransportHttp.java:492)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:524)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:437)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1335)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:210)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.egit.ui 4 0 2021-04-06 12:09:16.955
+!MESSAGE https://github.com/: https://github.com/info/refs?service=git-upload-pack not found: Not Found
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/: https://github.com/info/refs?service=git-upload-pack not found: Not Found
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:189)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:128)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:116)
+	at org.eclipse.egit.ui.internal.components.AsynchronousListOperation.run(AsynchronousListOperation.java:76)
+	at org.eclipse.egit.ui.internal.dialogs.CancelableFuture$1.run(CancelableFuture.java:280)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: https://github.com/: https://github.com/info/refs?service=git-upload-pack not found: Not Found
+	at org.eclipse.jgit.transport.TransportHttp.createNotFoundException(TransportHttp.java:492)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:524)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:362)
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:167)
+	... 5 more
